@@ -6,4 +6,5 @@ else
 	loop=${1}
 fi
 
-watch --color -n "${loop}" ./rotate_backgrounds.py ~/backgrounds
+echo "watch --color -n ${loop} ./rotate_backgrounds.py ~/backgrounds"
+watch --color -n ${loop} ./rotate_backgrounds.py ~/backgrounds
